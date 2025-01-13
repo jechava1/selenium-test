@@ -63,7 +63,7 @@
       <configuration>
         <archive>
           <manifest>
-            <mainClass>fully.qualified.MainClass</mainClass>
+            <mainClass>org.test.my_app_test.App</mainClass>
           </manifest>
         </archive>
         <descriptorRefs>
