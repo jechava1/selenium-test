@@ -56,5 +56,6 @@ public class App {
         driver.quit();
         
         System.out.println("Script executed and results captured");
+//        System.out.println(getClass().getResource("/foo/bar/Baz.class"));
     }
 }
