@@ -28,7 +28,7 @@ public class App {
         // create arguments to fill out the form on the webpage
         //run mvn clean package assembly:single
 
-        driver.get("http://54.173.179.159:8081/contact.html");
+        driver.get("http://3.91.189.206:8081/contact.html");
 
 //        driver.getTitle();
 
