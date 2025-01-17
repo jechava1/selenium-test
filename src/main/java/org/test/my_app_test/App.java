@@ -20,7 +20,7 @@ public class App {
     public static void main( String[] args ) throws InterruptedException, IOException
     {
         System.out.println( "Hello World!" );
-        
+        WebDriverManager.chromedriver().clearDriverCache().setup();
         ChromeOptions options= new ChromeOptions();
         options.addArguments("--headless");
         WebDriver driver = new ChromeDriver();
