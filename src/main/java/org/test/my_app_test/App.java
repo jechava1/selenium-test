@@ -21,9 +21,10 @@ public class App {
     {
         System.out.println( "Hello World!" );
        // WebDriverManager.chromedriver().clearDriverCache().setup();
+        
+        WebDriver driver = new ChromeDriver();
         ChromeOptions options= new ChromeOptions();
         options.addArguments("--headless");
-        WebDriver driver = new ChromeDriver();
         //open URL from test server
         // create arguments to fill out the form on the webpage
         //run mvn clean package assembly:single
